@@ -1,1 +1,120 @@
 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Profesional | Miguel Farías</title>
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --primary: #2563eb;
+            --border: #e2e8f0;
+        }
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header, section {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            margin-bottom: 20px;
+            border: 1px solid var(--border);
+        }
+        header { text-align: center; }
+        h1 { margin: 0 0 10px 0; font-size: 2.5rem; color: var(--primary); }
+        h2 { margin-top: 0; border-bottom: 2px solid var(--border); padding-bottom: 8px; }
+        .tag {
+            display: inline-block;
+            background: #dbeafe;
+            color: var(--primary);
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin: 4px;
+        }
+        .project {
+            padding: 15px;
+            border-left: 4px solid var(--primary);
+            background: #f1f5f9;
+            margin-bottom: 15px;
+            border-radius: 0 8px 8px 0;
+        }
+        .project h3 { margin: 0 0 5px 0; }
+        .links a {
+            display: inline-block;
+            margin: 10px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .links a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Nombre y Presentación -->
+        <header>
+            <h1>Miguel Farías</h1>
+            <p style="font-size: 1.2rem; color: var(--text-muted);">Estudiante de primer año de Programación Full Stack en la Universidad Provincial de Córdoba (UPC) - Capilla del Monte</p>
+            <p>Apasionado por la tecnología, el desarrollo de software y la resolución de problemas técnicos. Mi meta es consolidarme como desarrollador Full Stack, poniendo a prueba mis habilidades y explorando el potencial del software libre y el entorno local.</p>
+        </header>
+
+        <!-- Tecnologías e Intereses -->
+        <section>
+            <h2>Tecnologías y Áreas de Interés</h2>
+            <div>
+                <span class="tag">Linux Mint</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Git & GitHub</span>
+                <span class="tag">Desarrollo Full Stack</span>
+                <span class="tag">Entornos Locales (Ollama & LLMs)</span>
+                <span class="tag">Android Avanzado (Custom ROMs & ADB)</span>
+            </div>
+        </section>
+
+        <!-- Proyectos y Experiencia -->
+        <section>
+            <h2>Proyectos y Experiencia</h2>
+            
+            <div class="project">
+                <h3>Pasantía de Práctica Profesional</h3>
+                <p><strong>Establecimiento:</strong> Forrajería de Paso</p>
+                <p>Experiencia inicial aplicando responsabilidad, organización y constancia en un entorno de trabajo real, conectando la teoría escolar con el día a día laboral y la atención al detalle.</p>
+            </div>
+
+            <div class="project">
+                <h3>Optimización de Hardware y Conectividad</h3>
+                <p>Diseño y construcción experimental de una antena parabólica reflectora utilizando placas metálicas para la estabilización de señales de red móvil en zonas del interior, logrando optimizar enlaces de conectividad local de forma analógica.</p>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section style="text-align: center;">
+            <h2>Contacto y Redes</h2>
+            <p>¡Hablemos! Podés encontrarme en mis canales profesionales:</p>
+            <div class="links">
+                <a href="https://github.com/tu-usuario" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/tu-perfil" target="_blank">LinkedIn</a>
+                <a href="mailto:tu-correo@email.com">Enviar Correo</a>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
