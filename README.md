@@ -1,2 +1,2 @@
-# Far-as-Miguel
+# Farias-Miguel
 Trabajo práctico 
